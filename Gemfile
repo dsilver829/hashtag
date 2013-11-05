@@ -48,6 +48,7 @@ gem 'high_voltage'
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'guard-spork'
 end
 
 group :test do
